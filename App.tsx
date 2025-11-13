@@ -1,10 +1,10 @@
 
 import React, { useState, useEffect } from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import SubscriptionForm from './components/SubscriptionForm';
-import SocialLinks from './components/SocialLinks';
-import Footer from './components/Footer';
+import Header from './components/Header.tsx';
+import Hero from './components/Hero.tsx';
+import SubscriptionForm from './components/SubscriptionForm.tsx';
+import SocialLinks from './components/SocialLinks.tsx';
+import Footer from './components/Footer.tsx';
 
 const App: React.FC = () => {
   const [isMounted, setIsMounted] = useState(false);
