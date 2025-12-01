@@ -19,7 +19,7 @@ const App: React.FC = () => {
       
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen w-full p-4 md:p-8">
         <main className={`flex flex-col items-center text-center w-full max-w-3xl transition-opacity duration-1000 ${isMounted ? 'opacity-100' : 'opacity-0'}`}>
-          <Header />// Header component at the top
+          <Header />
           <div className="w-full flex-grow flex flex-col items-center justify-center">
             <Hero />
             <SubscriptionForm />
