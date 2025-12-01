@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header.tsx';
 import Hero from './components/Hero.tsx';
-import SubscriptionForm from './components/SubscriptionForm.tsx';// Subscription form component
+import SubscriptionForm from './components/SubscriptionForm.tsx';
 import SocialLinks from './components/SocialLinks.tsx';
 import Footer from './components/Footer.tsx';
 
@@ -22,7 +22,7 @@ const App: React.FC = () => {
           <Header />// Header component at the top
           <div className="w-full flex-grow flex flex-col items-center justify-center">
             <Hero />
-            <SubscriptionForm />// Subscription form below the hero section
+            <SubscriptionForm />
             <SocialLinks />
           </div>
           <Footer />
