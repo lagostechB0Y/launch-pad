@@ -22,15 +22,15 @@ const InstagramIcon = () => (
 const SocialLinks: React.FC = () => {
   return (
     <div className="flex justify-center space-x-6 my-8">
-      <a href="#" className="text-navy/60 hover:text-navy transition-colors">
+      <a href="https://facebook.com/Gopolitics/" className="text-navy/60 hover:text-navy transition-colors">
         <span className="sr-only">Facebook</span>
         <FacebookIcon />
       </a>
-      <a href="#" className="text-navy/60 hover:text-navy transition-colors">
+      <a href="https://x.com/GopoliticalNG" className="text-navy/60 hover:text-navy transition-colors">
         <span className="sr-only">Twitter</span>
         <TwitterIcon />
       </a>
-      <a href="#" className="text-navy/60 hover:text-navy transition-colors">
+      <a href="https://www.instagram.com/go.political/" className="text-navy/60 hover:text-navy transition-colors">
         <span className="sr-only">Instagram</span>
         <InstagramIcon />
       </a>

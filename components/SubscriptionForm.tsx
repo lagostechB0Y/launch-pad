@@ -6,7 +6,7 @@ const SubscriptionForm: React.FC = () => {
     <div className="w-full max-w-md my-10">
       <p className="text-navy font-bold mb-3">Be first to know when we launch.</p>
       <form 
-        action="https://formspree.io/f/your_form_id" // Replace with your Formspree ID
+        action="https://formspree.io/f/mblqldww"
         method="POST"
         className="flex flex-col sm:flex-row items-center gap-3 w-full"
       >
